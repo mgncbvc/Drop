@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#121212">
+  <meta name="description" content="Обратный отсчёт до понедельника, 5 октября 2026 года, 09:30 по Москве.">
+  <title>До дропкика — обратный отсчёт</title>
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+  <script src="timer.js" defer></script>
+</head>
+<body>
+  <main>
+    <header><span class="brand">ОБРАТНЫЙ ОТСЧЁТ</span><span class="edition">05 / 10 / 2026</span></header>
+    <section class="hero" aria-labelledby="heading">
+      <p class="eyebrow"><span class="line"></span> ПОНЕДЕЛЬНИК УЖЕ БЛИЗКО</p>
+      <h1 id="heading">До дропкика<br><span>Артемки-фрика</span><br>осталось</h1>
+      <div class="countdown" role="timer" aria-label="Оставшееся время" aria-live="off">
+        <div class="unit"><span class="number" id="days">—</span><span class="label">дней</span></div>
+        <span class="colon" aria-hidden="true">:</span>
+        <div class="unit"><span class="number" id="hours">—</span><span class="label">часов</span></div>
+        <span class="colon" aria-hidden="true">:</span>
+        <div class="unit"><span class="number" id="minutes">—</span><span class="label">минут</span></div>
+        <span class="colon" aria-hidden="true">:</span>
+        <div class="unit seconds"><span class="number" id="seconds">—</span><span class="label">секунд</span></div>
+      </div>
+      <p id="finished" role="status" hidden>Время вышло!</p>
+      <noscript><p>Включите JavaScript, чтобы увидеть обратный отсчёт.</p></noscript>
+    </section>
+    <section class="comparison" aria-label="До и после дропкика">
+      <figure class="photo-card">
+        <figcaption><span class="photo-tag">ДО</span><h2>До дропкика ты был таким</h2></figcaption>
+        <div class="photo-frame"><img src="images/before.png" alt="Парень сидит за столом с открытой книгой" width="960" height="1280" loading="lazy"></div>
+      </figure>
+      <figure class="photo-card after-card">
+        <figcaption><span class="photo-tag">ПОСЛЕ</span><h2>После дропкика твоё лицо будет таким</h2></figcaption>
+        <div class="photo-frame"><img src="images/after.png" alt="Мем: лицо мужчины крупным планом" width="386" height="386" loading="lazy"></div>
+      </figure>
+    </section>
+    <section class="memes" aria-labelledby="memes-title">
+      <p class="eyebrow"><span class="line"></span> ПОКА ТИКАЕТ ТАЙМЕР</p>
+      <h2 id="memes-title">Три стадии ожидания</h2>
+      <div class="meme-grid">
+        <figure class="meme-card"><img src="images/training.png" alt="Мем с надписью: бро, тебе надо тренироваться" width="600" height="558" loading="lazy"><figcaption><span>01</span> Подготовка</figcaption></figure>
+        <figure class="meme-card"><img src="images/dog.png" alt="Собака прикрывает морду лапой" width="444" height="450" loading="lazy"><figcaption><span>02</span> Осознание</figcaption></figure>
+        <figure class="meme-card"><img src="images/after.png" alt="Мем с невозмутимым лицом мужчины" width="386" height="386" loading="lazy"><figcaption><span>03</span> Принятие</figcaption></figure>
+      </div>
+    </section>
+    <footer><span>ПОНЕДЕЛЬНИК, 5 ОКТЯБРЯ</span><time datetime="2026-10-05T09:30:00+03:00">09:30 <span>МСК</span></time></footer>
+  </main>
+</body>
+</html>
